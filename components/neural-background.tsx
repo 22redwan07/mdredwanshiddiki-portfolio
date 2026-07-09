@@ -7,6 +7,8 @@ type Node = {
   y: number
   vx: number
   vy: number
+  r: number
+  phase: number
 }
 
 export function NeuralBackground() {
@@ -39,18 +41,22 @@ export function NeuralBackground() {
       canvas.style.height = `${height}px`
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
 
-      const count = Math.min(60, Math.floor((width * height) / 22000))
+      const count = Math.min(70, Math.floor((width * height) / 20000))
       nodes = Array.from({ length: count }, () => ({
         x: Math.random() * width,
         y: Math.random() * height,
-        vx: (Math.random() - 0.5) * 0.25,
-        vy: (Math.random() - 0.5) * 0.25,
+        vx: (Math.random() - 0.5) * 0.22,
+        vy: (Math.random() - 0.5) * 0.22,
+        r: 1.1 + Math.random() * 1.6,
+        phase: Math.random() * Math.PI * 2,
       }))
     }
 
+    let t = 0
     function draw() {
       ctx.clearRect(0, 0, width, height)
-      const maxDist = 140
+      const maxDist = 150
+      t += 0.01
 
       for (let i = 0; i < nodes.length; i++) {
         const n = nodes[i]
@@ -67,9 +73,9 @@ export function NeuralBackground() {
           const dy = n.y - m.y
           const dist = Math.hypot(dx, dy)
           if (dist < maxDist) {
-            const alpha = (1 - dist / maxDist) * 0.5
-            ctx.strokeStyle = `oklch(0.48 0.19 264 / ${alpha})`
-            ctx.lineWidth = 1
+            const alpha = (1 - dist / maxDist) * 0.4
+            ctx.strokeStyle = `oklch(0.7 0.14 250 / ${alpha})`
+            ctx.lineWidth = 0.7
             ctx.beginPath()
             ctx.moveTo(n.x, n.y)
             ctx.lineTo(m.x, m.y)
@@ -77,9 +83,10 @@ export function NeuralBackground() {
           }
         }
 
-        ctx.fillStyle = `oklch(0.48 0.19 264 / 0.6)`
+        const pulse = prefersReduced ? 0.7 : 0.55 + 0.35 * Math.sin(t + n.phase)
+        ctx.fillStyle = `oklch(0.74 0.15 250 / ${pulse})`
         ctx.beginPath()
-        ctx.arc(n.x, n.y, 1.6, 0, Math.PI * 2)
+        ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2)
         ctx.fill()
       }
 

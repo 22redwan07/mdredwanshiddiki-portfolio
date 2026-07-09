@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: '/profile.png',
+        url: '/profile.jpg',
         width: 1200,
         height: 630,
         alt: 'Md. Redwan Shiddiki',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Md. Redwan Shiddiki — AI & Machine Learning Researcher',
     description,
-    images: ['/profile.png'],
+    images: ['/profile.jpg'],
   },
   robots: {
     index: true,
@@ -79,8 +79,8 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light',
-  themeColor: '#ffffff',
+  colorScheme: 'dark',
+  themeColor: '#0c0f18',
 }
 
 const jsonLd = {

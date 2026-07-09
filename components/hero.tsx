@@ -26,9 +26,13 @@ export function Hero() {
       id="home"
       className="relative flex min-h-[100svh] items-center overflow-hidden pt-16"
     >
+      <div
+        className="pointer-events-none absolute inset-0 bg-aurora opacity-70"
+        aria-hidden="true"
+      />
       <NeuralBackground />
       <div
-        className="pointer-events-none absolute inset-0 bg-grid opacity-60"
+        className="pointer-events-none absolute inset-0 bg-grid opacity-70"
         aria-hidden="true"
       />
       <div
@@ -36,7 +40,7 @@ export function Hero() {
         aria-hidden="true"
       />
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-background to-transparent"
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-background to-transparent"
         aria-hidden="true"
       />
 

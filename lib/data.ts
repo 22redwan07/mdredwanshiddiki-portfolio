@@ -6,7 +6,7 @@ export const profile = {
   location: "Dhaka, Bangladesh",
   email: "seyam07redwan@gmail.com",
   phone: "+880 1977 672707",
-  photo: "/profile.png",
+  photo: "/profile.jpg",
   cv: "/redwan-shiddiki-cv.pdf",
   summary:
     "Final-year Computer Science and Engineering student with research experience across Artificial Intelligence, Machine Learning, Computer Vision, Deep Learning, and Intelligent Software Systems. Co-author of an IEEE conference publication and presenter at an international research conference, focused on building intelligent solutions for real-world challenges.",
