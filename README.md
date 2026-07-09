@@ -1,33 +1,113 @@
-# MD. Redwan Shiddiki-portfolio
+# MD. Redwan Shiddiki Seyam – Personal Portfolio
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+Welcome to the source code of my personal portfolio website.
 
-## Built with v0
+This portfolio showcases my academic background, research experience, software projects, publications, technical skills, and professional achievements. It serves as a central platform for recruiters, researchers, professors, and collaborators to learn more about my work in Artificial Intelligence, Machine Learning, Computer Vision, and Software Engineering.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## 🌐 Live Website
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_AZ0lDpAnPPVcpJxMAXKkZBqzxuoR)
+**Portfolio:** https://mdredwanshiddiki-portfolio.vercel.app/
 
-## Getting Started
+## 👨‍💻 About Me
 
-First, run the development server:
+I am an undergraduate Computer Science and Engineering student at **Manarat International University**, Bangladesh, with research interests in:
+
+- Artificial Intelligence (AI)
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Natural Language Processing (NLP)
+- AI for Healthcare
+- AI for Agriculture
+
+I am passionate about building intelligent systems, conducting impactful research, and developing real-world software solutions.
+
+## 📌 Portfolio Highlights
+
+- Professional Profile
+- Research Interests
+- Publications
+- Conference Presentations
+- Research Projects
+- Software Projects
+- Technical Skills
+- Awards & Honors
+- Leadership & Extracurricular Activities
+- Professional Profiles
+- Contact Information
+
+## 🚀 Featured Projects
+
+- Patient Nest
+- Career Nest
+- Ramadan Calendar
+- Cattle Disease Detection using Deep Learning
+- Bird Species Classification using MobileNetV2
+- Olive Disease Classification
+- Tomato Disease Detection
+- Fake News Detection
+- Bangladesh 2.0 Research Framework
+
+## 🛠️ Technologies Used
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- shadcn/ui
+
+### Development Tools
+- Git
+- GitHub
+- VS Code
+- Vercel
+
+## 📂 Running the Project Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/22redwan07/mdredwanshiddiki-portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd mdredwanshiddiki-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-## Learn More
+## 📬 Contact
 
-To learn more, take a look at the following resources:
+**Name:** MD. Redwan Shiddiki Seyam
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+- LinkedIn: https://www.linkedin.com/in/md-redwan-shiddiki/
+- GitHub: https://github.com/22redwan07
+- Google Scholar: https://scholar.google.com/citations?user=TYgvMHUAAAAJ&hl=en
+- ResearchGate: https://www.researchgate.net/profile/Redwan-S
+- ORCID: https://orcid.org/0009-0004-0447-3750
+
+## 📄 License
+
+This project is developed for personal portfolio and academic purposes.
+
+© 2026 MD. Redwan Shiddiki Seyam. All rights reserved.
