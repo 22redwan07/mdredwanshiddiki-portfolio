@@ -1,16 +1,29 @@
-export default function Home() {
+import { SiteNav } from "@/components/site-nav"
+import { Hero } from "@/components/hero"
+import { About } from "@/components/about"
+import { Research } from "@/components/research"
+import { Publications } from "@/components/publications"
+import { Projects } from "@/components/projects"
+import { Skills } from "@/components/skills"
+import { Timeline } from "@/components/timeline"
+import { Contact } from "@/components/contact"
+import { SiteFooter } from "@/components/site-footer"
+
+export default function Page() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans">
-      <main className="flex w-full max-w-3xl flex-col items-center gap-8 px-6 py-16 text-center sm:items-start sm:text-left">
-        <div className="flex flex-col gap-4">
-          <h1 className="text-4xl font-bold tracking-tight">
-            Portfolio
-          </h1>
-          <p className="max-w-md text-lg text-muted-foreground">
-            To get started, send a prompt or modify this page directly.
-          </p>
-        </div>
+    <>
+      <SiteNav />
+      <main>
+        <Hero />
+        <About />
+        <Research />
+        <Publications />
+        <Projects />
+        <Skills />
+        <Timeline />
+        <Contact />
       </main>
-    </div>
-  );
+      <SiteFooter />
+    </>
+  )
 }
