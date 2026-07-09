@@ -4,11 +4,11 @@ Welcome to the source code of my personal portfolio website.
 
 This portfolio showcases my academic background, research experience, software projects, publications, technical skills, and professional achievements. It serves as a central platform for recruiters, researchers, professors, and collaborators to learn more about my work in Artificial Intelligence, Machine Learning, Computer Vision, and Software Engineering.
 
-## 🌐 Live Website
+##  Live Website
 
 **Portfolio:** https://mdredwanshiddiki-portfolio.vercel.app/
 
-## 👨‍💻 About Me
+##  About Me
 
 I am an undergraduate Computer Science and Engineering student at **Manarat International University**, Bangladesh, with research interests in:
 
@@ -22,7 +22,7 @@ I am an undergraduate Computer Science and Engineering student at **Manarat Inte
 
 I am passionate about building intelligent systems, conducting impactful research, and developing real-world software solutions.
 
-## 📌 Portfolio Highlights
+##  Portfolio Highlights
 
 - Professional Profile
 - Research Interests
@@ -36,7 +36,7 @@ I am passionate about building intelligent systems, conducting impactful researc
 - Professional Profiles
 - Contact Information
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 - Patient Nest
 - Career Nest
@@ -48,7 +48,7 @@ I am passionate about building intelligent systems, conducting impactful researc
 - Fake News Detection
 - Bangladesh 2.0 Research Framework
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 - Next.js
@@ -64,7 +64,7 @@ I am passionate about building intelligent systems, conducting impactful researc
 - VS Code
 - Vercel
 
-## 📂 Running the Project Locally
+##  Running the Project Locally
 
 Clone the repository:
 
@@ -96,7 +96,7 @@ Visit:
 http://localhost:3000
 ```
 
-## 📬 Contact
+##  Contact
 
 **Name:** MD. Redwan Shiddiki Seyam
 
@@ -106,7 +106,7 @@ http://localhost:3000
 - ResearchGate: https://www.researchgate.net/profile/Redwan-S
 - ORCID: https://orcid.org/0009-0004-0447-3750
 
-## 📄 License
+##  License
 
 This project is developed for personal portfolio and academic purposes.
 
